@@ -1,0 +1,12 @@
+git add filename//可多次添加
+git commit -m "descriptions"//正式提交到仓库
+git diff readme.txt
+git status
+git reflog
+git log
+git reset --hard HEAD^
+
+ssh-keygen -t rsa -C "email@company.com"
+复制id_rsa.pub文件中的公钥，上传到github
+git remote add origin git@github.com:vcjj/helloworld.git
+git push -u origin master
